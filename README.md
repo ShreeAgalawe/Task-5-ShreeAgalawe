@@ -90,16 +90,16 @@
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
     import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-database.js";
     
-    // Your Firebase configuration object
+    // Your Firebase configuration object (SENSITIVE DATA REMOVED)
     const firebaseConfig = {
-      apiKey: "AIzaSyC-r8mWmGozu94iUB-27VY_f6wKvr1ausA",
-      authDomain: "pet-food---water-monitor.firebaseapp.com",
-      databaseURL: "https://pet-food---water-monitor-default-rtdb.asia-southeast1.firebasedatabase.app",
-      projectId: "pet-food---water-monitor",
-      storageBucket: "pet-food---water-monitor.firebasestorage.app",
-      messagingSenderId: "87547436039",
-      appId: "1:87547436039:web:d71e80652dbd4d0d001ea2",
-      measurementId: "G-VQN55YCC7J"
+      apiKey: "YOUR_API_KEY",
+      authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+      databaseURL: "https://YOUR_PROJECT_ID-default-rtdb.REGION.firebasedatabase.app",
+      projectId: "YOUR_PROJECT_ID",
+      storageBucket: "YOUR_PROJECT_ID.firebasestorage.app",
+      messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+      appId: "YOUR_APP_ID",
+      measurementId: "YOUR_MEASUREMENT_ID"
     };
 
     const app = initializeApp(firebaseConfig);
